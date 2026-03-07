@@ -1,0 +1,102 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.5.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="819" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="TODJJNPCty3q3b3gkgBC-19" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TODJJNPCty3q3b3gkgBC-20" target="TODJJNPCty3q3b3gkgBC-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TODJJNPCty3q3b3gkgBC-20" value="&lt;b&gt;220V通电&lt;/b&gt;&lt;div&gt;&lt;b&gt;电源指示灯亮起&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="305" y="180" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TODJJNPCty3q3b3gkgBC-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TODJJNPCty3q3b3gkgBC-22" target="TODJJNPCty3q3b3gkgBC-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="215" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TODJJNPCty3q3b3gkgBC-22" value="&lt;b&gt;返工、检查&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="560" y="375" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TODJJNPCty3q3b3gkgBC-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TODJJNPCty3q3b3gkgBC-27" target="TODJJNPCty3q3b3gkgBC-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TODJJNPCty3q3b3gkgBC-24" value="若有缺失" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TODJJNPCty3q3b3gkgBC-23" vertex="1" connectable="0">
+          <mxGeometry x="-0.1167" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TODJJNPCty3q3b3gkgBC-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TODJJNPCty3q3b3gkgBC-27" target="TODJJNPCty3q3b3gkgBC-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="520" />
+              <mxPoint x="375" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TODJJNPCty3q3b3gkgBC-26" value="确保以上4步完整、进行按键检测" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TODJJNPCty3q3b3gkgBC-25" vertex="1" connectable="0">
+          <mxGeometry x="-0.2222" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TODJJNPCty3q3b3gkgBC-27" value="&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;&lt;b&gt;听见蜂鸣器声音&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;看见LED灯亮起&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&amp;nbsp;看到数码管3、2、1倒计时&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;听到开机语音播报&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="275" y="310" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="TODJJNPCty3q3b3gkgBC-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TODJJNPCty3q3b3gkgBC-31" target="TODJJNPCty3q3b3gkgBC-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="650" />
+              <mxPoint x="770" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TODJJNPCty3q3b3gkgBC-29" value="以上未通过时返检" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TODJJNPCty3q3b3gkgBC-28" vertex="1" connectable="0">
+          <mxGeometry x="0.0822" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TODJJNPCty3q3b3gkgBC-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TODJJNPCty3q3b3gkgBC-31" target="TODJJNPCty3q3b3gkgBC-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TODJJNPCty3q3b3gkgBC-39" value="确保以上4步完整、进行语音检测" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TODJJNPCty3q3b3gkgBC-30" vertex="1" connectable="0">
+          <mxGeometry x="-0.0612" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TODJJNPCty3q3b3gkgBC-31" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b&gt;按键检测&lt;/b&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;on\speed按键：按下开机调节风速；数码管显示1、2、3档；风扇各个挡位调节有效&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;time按键：按下红色LED等亮起；请依次按下红色LED从左到右能全部点亮（四颗全亮时再次按下熄灭为止）&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;SW按键： 按下SW按键黄色LED亮起；用万用表测量COM与输出端是否为220V&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;off：关机键； 按下时主板除电源灯外全部熄灭&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="60" y="590" width="630" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="TODJJNPCty3q3b3gkgBC-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TODJJNPCty3q3b3gkgBC-35" target="TODJJNPCty3q3b3gkgBC-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TODJJNPCty3q3b3gkgBC-35" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 语音模块检测&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;turn on the fan（打开风扇，数码管显示挡位；风扇该挡位有效）&lt;br&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;turn off the fan（关闭风扇、风扇关机、除电源外所有灯熄灭）&lt;br&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;High wind speed（第三档；数码管显示3，风扇该挡位有效）&lt;br&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Medium wind speed（第二档；数码管显示2，风扇该挡位有效）&lt;br&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Low wind speed第一档 (数码管显示1，风扇该挡位有效)&lt;br&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Swing: SW指示灯亮起测量该挡位电压&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="149.38" y="840" width="451.25" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="TODJJNPCty3q3b3gkgBC-36" value="&lt;b&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;智能风扇检测流程&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="299" y="40" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TODJJNPCty3q3b3gkgBC-37" value="&lt;b&gt;完成&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="315" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TODJJNPCty3q3b3gkgBC-38" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;通电前准备工作：&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;检查火线与共线端COM&lt;/li&gt;&lt;li&gt;检查各个插件是否有虚焊、漏焊&lt;/li&gt;&lt;li&gt;重点检查插件电解电容电极方向&lt;/li&gt;&lt;li&gt;安规、压敏、保险等器件焊接检查&lt;/li&gt;&lt;li&gt;测试时保持干燥通风整洁的环境&lt;/li&gt;&lt;li&gt;万用表使用时注意量程&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="587" y="80" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TODJJNPCty3q3b3gkgBC-40" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TODJJNPCty3q3b3gkgBC-35" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="910" as="sourcePoint" />
+            <mxPoint x="770" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
