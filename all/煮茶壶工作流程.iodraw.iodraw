@@ -68,6 +68,11 @@
             <mxPoint x="10" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="owWMMGAx3oXan8-qehVG-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pvL2qQ-N0F0urgxxSuNt-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="pvL2qQ-N0F0urgxxSuNt-3" value="根据功能初始设定温度值加热&lt;div&gt;&lt;br&gt;&lt;div&gt;煮沸后保持沸腾？&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="217" y="620" width="274" height="140" as="geometry" />
         </mxCell>
